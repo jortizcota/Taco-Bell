@@ -1,20 +1,6 @@
-#navigation ul{
-    list-style-type: none;
-    width: 100%;
-}
-#navigation ul li{
+.inline{
     float: left;
-    width: 20%;
 }
-#navigation ul li a{
-    background-color: rgba(185, 29, 185, 0.863);
-    border: 2px solid white;
-    color: white;
-    display: block;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 1em 0;
-    text-align: center;
-    text-decoration: none;
-
+.clearBoth{
+    clear: both;
 }
