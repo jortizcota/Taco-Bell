@@ -1,6 +1,14 @@
-.inline{
-    float: left;
+body{
+    background: linear-gradient(to right, #6600cc 0%, #ff99ff 100%);
 }
 .clearBoth{
     clear: both;
+}
+.carousel {
+    width:628px;
+    height:471px;
+    margin: auto;
+}
+.inline{
+    float: left;
 }
