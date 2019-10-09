@@ -1,14 +1,62 @@
-body{
-    background: linear-gradient(to right, #6600cc 0%, #ff99ff 100%);
+.about-foundation{
+    word-wrap: break-word;
+    width: 1500px;
 }
+
+body{
+    background: linear-gradient(to right, #6600cc 0%, #9900cc 100%);
+}
+
 .clearBoth{
     clear: both;
 }
+
 .carousel {
     width:628px;
     height:471px;
     margin: auto;
 }
+
+.food{
+    border: dashed white;
+    font-family: 'Playfair Display', serif;
+}
+
+h1,h2,h3{
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+
+#imageMain{
+    display: flex;
+    justify-content: center;
+}
+#imageMain{
+    height: 375px;
+    width: auto;
+    margin: 0 10px;
+}
+
 .inline{
     float: left;
+}
+
+label{
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+p{
+    color: white;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+}
+
+.tab{
+    text-indent: 40px;
+}
+
+#videoMain{
+    display: flex;
+    justify-content: center;
 }
